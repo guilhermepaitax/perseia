@@ -34,3 +34,6 @@ export const LoadButton = styled.TouchableOpacity`
   align-items: center;
   margin-left: auto;
 `;
+
+export const Menu = styled.View``;
+

@@ -5,7 +5,8 @@ import { MaterialIcons } from '@expo/vector-icons';
 import { 
   Map,
   Container,
-  LoadButton
+  LoadButton,
+  Menu,
 } from './styles';
 
 export default function Main({ navigation }) {
@@ -53,6 +54,7 @@ export default function Main({ navigation }) {
           <MaterialIcons name="search" size={25} color="#000" />
         </LoadButton>
       </Container>
+      <Menu />
     </>
   );
 }
