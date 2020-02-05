@@ -41,7 +41,7 @@ export const Menu = styled.View`
   right: 0;
   left: 0;
   height: 8%;
-  border-radius: 23px;
+  border-radius: 22px;
   z-index: 6;
   background: #fff;
 `;
