@@ -35,5 +35,14 @@ export const LoadButton = styled.TouchableOpacity`
   margin-left: auto;
 `;
 
-export const Menu = styled.View``;
+export const Menu = styled.View`
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 8%;
+  border-radius: 22px;
+  z-index: 6;
+  background: #fff;
+`;
 
